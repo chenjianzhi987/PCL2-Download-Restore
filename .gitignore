@@ -1,0 +1,18 @@
+# 构建产物与本地测试文件
+dist/
+package/
+tests/
+samples/
+
+# 本地压缩包
+*.zip
+
+# 但 Mono.Cecil 需要随仓库提供（MIT，构建依赖）
+!vendor/Mono.Cecil.dll
+
+# 系统/IDE
+.vs/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
